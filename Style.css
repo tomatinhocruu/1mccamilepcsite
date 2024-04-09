@@ -1,17 +1,22 @@
-
-"UTF-8";
+@charset "UTF-8";
 
 body
 {
 background-color: black;
 color: red;
 font-size: 12pt;
-font-family:Arial;
+font-family: Arial;
 }
 
 h1
 {
-  color: write;
-  font-size: 20pt;
+  color: white;
+  font-size: 30pt;
 }
 
+h2
+{
+  color: white;
+  font-size: 20pt;
+
+}
