@@ -1,22 +1,20 @@
-@charset "UTF-8";
-
-body
-{
-background-color: black;
-color: red;
-font-size: 12pt;
-font-family: Arial;
+/* <a> elementos com um atributo de título  */
+a[title] {
+  color: red;
 }
 
-h1
+/* <a> elementos combinando com um href "https://example.org" */
+a[href="https://example.org"]
 {
-  color: white;
-  font-size: 30pt;
+  color: green;
 }
 
-h2
-{
-  color: white;
-  font-size: 20pt;
+/* <a> elementos com um href contendo "example" */
+a[href*="example"] {
+  font-size: 2em;
+}
 
+/* <a> elementos com href terminando em ".org" */
+a[href$=".org"] {
+  font-style: italic;
 }
